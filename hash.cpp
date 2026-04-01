@@ -15,5 +15,5 @@ long long computeHash(string text) {
         power = (power * p) % m;
     }
 
-    return hash;
+    return (hash + m) % m;;
 }
