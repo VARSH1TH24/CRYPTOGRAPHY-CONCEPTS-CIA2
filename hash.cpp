@@ -5,8 +5,7 @@ using namespace std;
 
 long long computeHash(string text) {
     const long long p = 31;
-    const long long m = 1000000009LL;  // ✅ EXACT integer
-
+    const long long m = 1000000009LL;  
     long long hash = 0;
 
     for (char c : text) {
@@ -14,7 +13,7 @@ long long computeHash(string text) {
             long long value = (long long)(tolower(c) - 'a' + 1);
             hash = (hash * p + value) % m;
 
-            if (hash < 0) hash += m;   // ✅ safety fix
+            if (hash < 0) hash += m;   
         }
     }
 
