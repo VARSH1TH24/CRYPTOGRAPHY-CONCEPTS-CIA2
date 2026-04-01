@@ -1,4 +1,4 @@
-Multiplicative Cipher with Polynomial Rolling Hash
+MULTIPLICATIVE CIPHER WITH POSITIVE ROLLING HASH
 
 Description:
 This project implements the Multiplicative Cipher along with a custom Polynomial Rolling Hash function.
