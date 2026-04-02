@@ -97,15 +97,15 @@ How to Run
 Example 1
 Plaintext: hello
 Key: 5
-Encrypted: jgnnq
-Hash: (generated value)
+Encrypted: judds
+Hash: 17670568
 Decrypted: hello
 
 Example 2
 Plaintext: world
 Key: 7
-Encrypted: ??? (depends on key)
-Hash: (generated value)
+Encrypted: yupzv
+Hash: 21108080
 Decrypted: world
 
 Workflow
