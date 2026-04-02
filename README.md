@@ -96,19 +96,33 @@ How to Run
    
 Example 1
 Plaintext: hello
+
 Key: 5
+
 Encrypted: judds
+
 Hash: 17670568
+
 Decrypted: hello
 
+![Output](ss1.png)
+
 Example 2
+
 Plaintext: world
+
 Key: 7
+
 Encrypted: yupzv
+
 Hash: 21108080
+
 Decrypted: world
 
-Workflow
+![Output](ss2.png)
+
+WORKFLOW:
+
 Plaintext → Encryption → Hash → Decryption → Verification
 
 ---
